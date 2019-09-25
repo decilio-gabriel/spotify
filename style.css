@@ -3,6 +3,7 @@ body,
 html,
 #home {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -39,7 +40,7 @@ nav.navbar-transparente {
   text-align: center;
 }
 
-.btn-custom{
+.btn-custom {
   color: #fff;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -49,13 +50,13 @@ nav.navbar-transparente {
 }
 
 .btn-roxo {
-background: #7c25f8;
+  background: #7c25f8;
 }
 
 .btn-roxo:hover {
   background: #6207e3;
-  color:#fff;
-  }
+  color: #fff;
+}
 
 .btn-branco {
   border: 2px solid #fff;
@@ -72,6 +73,63 @@ h1 {
   letter-spacing: -0.05em;
   margin-bottom: 50px;
   color: #fff;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+/* ----------------------- ESTRUTURA DE CONTEUDOS ----------------*/
+.caixa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#servicos {
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#servicoes h2,
+h3 {
+  color: #7c25f8;
+}
+
+#recursos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#recursos {
+  color: #fff;
+}
+
+#recursos h3 {
+  color: #9bf0e1;
+}
+
+#recursos h2 {
+  color: #fff;
+}
+
+.albuns {
+  padding: 10px 0;
+}
+
+.rotacionar {
+  -ms-transform: rotate (30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  padding-left: 80px;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
